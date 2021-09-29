@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,7 +19,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 
     <title>Braeden Trautz</title>
+
     <style>
+
         html,
         body {
             height: 100%;
@@ -88,24 +91,31 @@
         .nl {
         }
 
+        #about {
+            background-color: white;
+        }
+
         #navbar {
-            background-color: palegreen;
+            background-color: #ff4838;
         }
 
         #name {
             font-family: 'Shadows Into Light', cursive;
         }
+
     </style>
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top m-1 rounded" id="navbar">
         <a class="navbar-brand mr-5" href="#landing" id="logo">
-            <img src="images/black-t.png" class="mr-3"width="30" height="30" alt="" loading="lazy">
+            <img src="images/black-t.png" class="mr-3" width="30" height="30" alt="" loading="lazy">
             <span style="color: #162B32;">Braeden Trautz</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -115,13 +125,13 @@
                     <a class="nav-link" href="#projects" style="color: #162B32;">Projects</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#work" style="color: #162B32;">Work</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#courses" style="color: #162B32;">Courses</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact" style="color: #162B32;">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/braedentraut24" style="color: #162B32;">GitHub</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="documents/BraedenTrautz-Resume-July2021.pdf" style="color: #162B32;">Resume</a>
@@ -130,34 +140,62 @@
         </div>
     </nav>
 
-    <div class="container landing d-flex justify-content-center flex-column align-items-center pt-0" id="landing">
-        <div class="row mx-auto">
-            <h4 class="display-4 mx-auto text-center" id="name">Hello, my name is<br/>Braeden Trautz</h4>
-        </div>
-        <br />
-        <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center">I'm an Information Science & Technology Student at Temple
-                University and an Emerging Talent Rotational Program employee at Merck!</h5>
-        </div>
-        <div class="row my-4">
-            <div class="col my-3"><img src="images/android.png" class="lang mr-3" data-toggle="tooltip" data-placement="top"
-                    title="Android SDK"/></div>
-            <div class="col my-3"><img src="images/aspnet.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="ASP.NET" /></div>
-            <div class="col my-3"><img src="images/aws.png" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Amazon Web Services" /></div>
-            <div class="col my-3"><img src="images/csharp.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="C#" /></div>
-            <div class="col my-3"><img src="images/java.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Java" /></div>
-            <div class="col my-3"><img src="images/javascript.png" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="JavaScript" /></div>
-            <div class="col my-3"><img src="images/python.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Python 3.8" /></div>           
-            <div class="col my-3"><img src="images/sql.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="SQL Querying" /></div> 
+    <br id="landing"/>
+    <br />
+    <br />
+    <div class="container landing d-flex justify-content-center flex-column align-items-center pt-0 mb-4" id="landing_div">
 
+        <div class="jumbotron border border-dark rounded shadow shadow-lg" id="about">
+            <h1 id="name" class="display-4">Hello, my name is Braeden Trautz</h1>
+            <p class="lead">
+                Welcome to my website! I hope you enjoy learning a bit more about me and my work.
+            </p>
+            <hr class="my-4"/>
+            <p>
+                I am an Information Science and Technology major at Temple University in Philadelphia, an "Emerging Talen Rotation Program"
+                employee at Merck, and a person of many interests.  I love technology, gaming, photography, video production, science, travelling,
+                and camping.
+            </p>
+            <hr class="my-4"/>
+            <p class="mt-4 pt-2">Hover over images to see some of the IT skills I have!</p>
+            <div class="row mt-0">
+                <div class="col my-3">
+                    <img src="images/android.png" class="lang mr-3" data-toggle="tooltip" data-placement="top"
+                         title="Android SDK" />
+                </div>
+                <div class="col my-3">
+                    <img src="images/aspnet.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                         title="ASP.NET" />
+                </div>
+                <div class="col my-3">
+                    <img src="images/aws.png" class="lang" data-toggle="tooltip" data-placement="top"
+                         title="Amazon Web Services" />
+                </div>
+                <div class="col my-3">
+                    <img src="images/csharp.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                         title="C#" />
+                </div>
+                <div class="col my-3">
+                    <img src="images/java.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                         title="Java" />
+                </div>
+                <div class="col my-3">
+                    <img src="images/javascript.png" class="lang" data-toggle="tooltip" data-placement="top"
+                         title="JavaScript" />
+                </div>
+                <div class="col my-3">
+                    <img src="images/python.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                         title="Python 3.8" />
+                </div>
+                <div class="col my-3">
+                    <img src="images/sql.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                         title="SQL Querying" />
+                </div>
+            </div>
         </div>
+
+        
+
         <div class="row my-4">
             <div class="col">
                 <a href="#projects"><button type="button" class="btn btn-outline">Projects</button></a>
@@ -171,14 +209,22 @@
             <div class="col">
                 <a href="#contact"><button type="button" class="btn btn-outline">Contact</button></a>
             </div>
+            <div class="col">
+                <a href="documents\BraedenTrautz-Resume-July2021.pdf" class="btn btn-outline">Resume</a>
+            </div>
         </div>
 
         <div class="row mt-5 next">
-            <a href="#projects" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
-                    title="Projects"></i></a> </div>
+            <a href="#projects" class="col">
+                <i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                   title="Projects"></i>
+            </a>
+        </div>
+
     </div>
 
-    <div class="container landing d-flex justify-content-center flex-column align-items-center mt-5 pt-3" id="projects">
+    <br id="projects" />
+    <div class="container landing d-flex justify-content-center flex-column align-items-center mt-5 pt-3" id="projects_div">
         <div class="row mx-auto">
             <h4 class="display-4 font-weight-bold mx-auto text-center">School Projects</h4>
         </div>
@@ -222,7 +268,7 @@
                 a great introduction to server-side development and the intricacies of the ASP.NET framework.
             </p>
         </div>
-        
+
         <div class="row mt-5 next">
             <a href="#work" class="col">
                 <i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
@@ -231,7 +277,8 @@
         </div>
     </div>
 
-    <div class="container landing d-flex justify-content-center flex-column align-items-center mt-5 pt-2" id="work">
+    <br id="work" />
+    <div class="container landing d-flex justify-content-center flex-column align-items-center mt-5 pt-2" id="work_div">
         <div class="row mx-auto">
             <h4 class="display-4 font-weight-bold mx-auto text-center">Work Projects</h4>
         </div>
@@ -257,8 +304,8 @@
         <div class="row w-100 mb-4">
             <p class="text-justify">
                 Another project I completed during the summer of 2021 was an OCR powered PDF to Excel conversion project.  The goal
-                of this bot was to take PDF order confirmations and enter that data into an Excel spreadsheet, something which was 
-                normally done by a human.  I was tasked with making this possible when our original pipeline used lead to a failed to deploy due to 
+                of this bot was to take PDF order confirmations and enter that data into an Excel spreadsheet, something which was
+                normally done by a human.  I was tasked with making this possible when our original pipeline used lead to a failed to deploy due to
                 network restrictions.  I transferred and translated local-based Python scripts into AWS Lambda where I set up a serverless
                 pipeline that first ran AWS Textract on a document and converted it into a JSON file, turned that JSON file into an Excel sheet,
                 and finally deleted scan artifacts like JSON files and PDF files.  Overall I really was able to show my ability to
@@ -274,7 +321,8 @@
         </div>
     </div>
 
-    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="courses">
+    <br id="courses" />
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="courses_div">
         <div class="row mx-auto">
             <h4 class="display-4 font-weight-bold mx-auto text-center">Courses</h4>
         </div>
@@ -320,7 +368,9 @@
             </a>
         </div>
     </div>
-    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="contact">
+    
+    <br id="contact" />
+    <div class="container landing d-flex justify-content-center flex-column align-items-center mb-5" id="contact_div">
         <div class="row mx-auto">
             <h4 class="display-4 font-weight-bold mx-auto text-center">Find Me Online</h4>
         </div>
@@ -349,22 +399,24 @@
             <a href="#landing"><button type="button" class="btn btn-outline">Return to Top</button></a>
         </div>
     </div>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
     <script>
         $(function () {
             $('[data-toggle="tooltip"]').tooltip()
         })
     </script>
+
 </body>
 
 </html>
